@@ -47,6 +47,7 @@ group :development do
   gem 'spring'
 end
 
+# for deploy to heroku
 group :production do
   gem 'pg'
   gem 'rails_12factor'
